@@ -48,3 +48,8 @@
 .result--ext+.result_extensions__underline {
     display: none;
 }
+
+.results-page--all h2 {
+    white-space: nowrap;
+    overflow: hidden;
+}
