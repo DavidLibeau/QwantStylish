@@ -55,10 +55,10 @@
 }
 
 
-.result__thumb-container {
-    filter: blur(5px);
+.ribbon .result__thumb-container,.ribbon .knowledge-ribbon__cover-image,.ribbon .knowledge-ribbon__images--container img {
+    filter: blur(8px);
 }
-.result__thumb-container:hover {
+.result__thumb-container:hover,.knowledge-ribbon__cover-image:hover,.knowledge-ribbon__images--container img:hover {
     filter: blur(0px);
     -webkit-transition: filter 2s ease!important;
     -moz-transition: filter 2s ease!important;
