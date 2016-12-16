@@ -60,9 +60,9 @@
 }
 .result__thumb-container:hover {
     filter: blur(0px);
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
+    -webkit-transition: filter 2s ease!important;
+    -moz-transition: filter 2s ease!important;
+    -ms-transition: filter 2s ease!important;
+    -o-transition: filter 2s ease!important;
+    transition: filter 2s ease!important;
 }
